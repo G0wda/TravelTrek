@@ -90,6 +90,7 @@
     transition: .5s;
 }
 
+
 .sticky-top.navbar-light .navbar-nav .nav-link {
     padding: 20px 0;
     color: var(--dark) !important;
@@ -302,6 +303,10 @@
 
 
 /*** Testimonial ***/
+.fa-indian-rupee-sign:before, .fa-indian-rupee:before, .fa-inr:before {
+    content: "\e1bc";
+    font-size: 25px;
+}
 .testimonial-carousel::before {
     position: absolute;
     content: "";
