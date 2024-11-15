@@ -18,7 +18,7 @@
   
   /* Container with glass effect */
   .form-container {
-    backdrop-filter: blur(10px); /* Adds blur for glass effect */
+    backdrop-filter: blur(7px); /* Adds blur for glass effect */
     background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border for definition */
@@ -38,7 +38,7 @@
   }
   
   .subtitle {
-    color: #6c757d;
+    color: #ffffff;
     margin-bottom: 20px;
   }
   
@@ -103,7 +103,4 @@
   .extra-links a:hover {
     color: #709d13;
   }
-  fa-indian-rupee-sign:before, .fa-indian-rupee:before, .fa-inr:before {
-    content: "\e1bc";
-    font-size: 25px;
-}
+  
