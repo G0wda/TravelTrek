@@ -21,8 +21,14 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
     line-height: 1.6;
-    background-color: var(--background-color);
     color: var(--text-primary);
 }
 
@@ -233,8 +239,4 @@ input:focus, select:focus {
     .add-item-card {
         position: static;
     }
-}
-fa-indian-rupee-sign:before, .fa-indian-rupee:before, .fa-inr:before {
-    content: "\e1bc";
-    font-size: 25px;
 }
