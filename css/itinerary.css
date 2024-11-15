@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #7bff00;
-    --secondary-color: #34bb0b;
+    --primary-color: #86B817;
+    --secondary-color: #86B817;
     --success-color: #059669;
     --danger-color: #dc2626;
     --background-color: #f1f5f9;
@@ -246,8 +246,8 @@ input:focus, select:focus {
     position: absolute;
     bottom: 045px;
     color: white;
-    border: 2px solid  #7bff00;
+    border: 2px solid  #86B817;
     padding :10px;
     border-radius: 5px;
-    background-color: #7bff00;
+    background-color: #86B817;
 }
