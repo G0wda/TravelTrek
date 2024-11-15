@@ -1,12 +1,12 @@
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #1e40af;
+    --primary-color: #7bff00;
+    --secondary-color: #34bb0b;
     --success-color: #059669;
     --danger-color: #dc2626;
     --background-color: #f1f5f9;
     --card-background: #ffffff;
     --text-primary: #1e293b;
-    --text-secondary: #64748b;
+    --text-secondary: #d8dce2;
     --border-radius: 12px;
     --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);
     --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1);
@@ -239,4 +239,15 @@ input:focus, select:focus {
     .add-item-card {
         position: static;
     }
+}
+
+.hm-btn{
+    text-decoration: none;
+    position: absolute;
+    bottom: 045px;
+    color: white;
+    border: 2px solid  #7bff00;
+    padding :10px;
+    border-radius: 5px;
+    background-color: #7bff00;
 }
