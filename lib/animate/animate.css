@@ -343,7 +343,7 @@
 
   0% {
     opacity: 0;
-    transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -5000px, 0);
   }
 
   60% {
@@ -375,7 +375,7 @@
 
   0% {
     opacity: 0;
-    transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(-5000px, 0, 0);
   }
 
   60% {
@@ -407,7 +407,7 @@
 
   from {
     opacity: 0;
-    transform: translate3d(3000px, 0, 0);
+    transform: translate3d(5000px, 0, 0);
   }
 
   60% {
@@ -439,7 +439,7 @@
 
   from {
     opacity: 0;
-    transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 5000px, 0);
   }
 
   60% {
